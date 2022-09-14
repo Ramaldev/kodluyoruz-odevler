@@ -1,18 +1,33 @@
-*{
+* {
+    margin: 0;
     padding: 0;
-    margin:0;
-    box-sizing: border-box;
+} 
+.textred{
+    color: rgb(199, 15, 101);
+    text-align: center;
+}
+.textpurple {color: blueviolet;
+    text-align: center;
 }
 
-body{
-    background-color:#E0C9A9 ;
+ul,ol { text-align: center;
+    list-style-position:inside
 }
-ul{
-    align-items: center;  
-    display: flex;
-    flex-direction: column;
+h3 {
+  color: rgba(255, 187, 0, 0.863);
 }
-ol{align-items: center;
-display: flex;
-flex-direction: column;
+.textcenter {
+    text-align: center;
+}
+
+.img { 
+    height: 350px; width: 271px; 
+}
+
+img {
+    height: 350px; width: 400px; 
+}
+
+.tama {
+    height: 300px; width: 500px;
 }
